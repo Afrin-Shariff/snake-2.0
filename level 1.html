@@ -66,11 +66,11 @@
     <div class="game-over" id="gameOver" style="display: none;">Game Over! Final Score: <span id="finalScore"></span></div>
 
     <script>
-        const rows = 20;
-        const cols = 20;
-        let snake = [{ x: 10, y: 10 }];
-        let direction = { x: 1, y: 0 };
-        let apple = { x: 15, y: 15 };
+        const rows = 20; <!--game area length-->
+        const cols = 20; <!--game area width-->
+        let snake = [{ x: 10, y: 10 }]; <!--starting position of the snake-->
+        let direction = { x: 5, y: 0 }; 
+        let apple = { x: 15, y: 15 }; <!--first pos. of the apple-->
         let score = 0;
         let highScore = localStorage.getItem('highScore') || 0;
         let gameOver = false;
@@ -84,7 +84,7 @@
 
         highScoreDisplay.textContent = highScore;
 
-        for (let i = 0; i < rows * cols; i++) {
+        for (let i = 0; i < rows * cols; i++) {      <!--playing flied/game area-->
             const cell = document.createElement("div");
             cell.classList.add("cell");
             gameArea.appendChild(cell);
