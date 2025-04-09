@@ -1,8 +1,12 @@
 body {
     align-items: center;
+    text-align: center;
     height: 100vh;
     margin: 0;
     background-color: #ffacac;
     color: rgb(167, 0, 95);
+    }
+button {
+    align-items: center;
     }
     
