@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</html>
+<button onclick="location.href='level 1 - pink.html'" class="button">PINK</button>
+</html>
+<body>
+    <h1>WELCOME TO SNAKE 2.0.</h1>
+    <p>YOU HAVE CHOSEN THE EASY MODE</p>
+    <P>EAT THE GREEN PELLETS FOR POINTS</P>
+    <p>NOW CHOOSE A COLOUR</p>
+</body>
