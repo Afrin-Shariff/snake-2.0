@@ -11,4 +11,6 @@ button {
     background-color:rgb(175, 100, 225);
     color: rgb(196, 255, 244);
     }
-    
+img {
+    align-items: right;
+    }
