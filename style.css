@@ -8,5 +8,7 @@ body {
     }
 button {
     align-items: center;
+    background-color:rgb(175, 100, 225);
+    color: rgb(196, 255, 244);
     }
     
