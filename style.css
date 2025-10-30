@@ -3,7 +3,7 @@ body {
     text-align: center;
     height: 100vh;
     margin: 0;
-    background-color: #ffacac;
+    background-color: #18232552;
     color: rgb(167, 0, 95);
     }
 button {
@@ -12,3 +12,7 @@ button {
     color: rgb(196, 255, 244);
     width: 100px;
     }
+.bordered{
+    
+
+}
