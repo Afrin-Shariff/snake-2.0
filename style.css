@@ -1,17 +1,22 @@
 body {
     align-items: center;
     text-align: center;
+    font-family: Copperplate;
+    font-size: 35px;
     height: 100vh;
     margin: 0;
-    background-color: #18232552;
-    color: rgb(167, 0, 95);
+    color: rgb(123, 25, 63);
     }
+.gradient-angle{
+    background: linear-gradient(45deg, #8baec4, #7f7db0, #8baec4);
+}
 button {
     align-items: top;
     background-color:rgb(175, 100, 225);
     color: rgb(196, 255, 244);
     width: 200px;
     height: 200px;
+    font-size: 26px;
     }
 .bordered{
     
